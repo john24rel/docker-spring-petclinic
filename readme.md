@@ -1,11 +1,11 @@
-'''
+```   
 To Create Doker Image From Dockerfile
-##RUN##
+RUN
 docker build -t (tagname) .
 docker run -d -p 80:8080 image name or image id
 curl http://vm ipaddress
 copy to web browser
-''' 
+``` 
 
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
