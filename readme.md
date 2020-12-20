@@ -12,8 +12,8 @@ docker ps
 ```
 ## check if container is running web application
 ```
-curl http://vm ipaddress
-copy ip to web browser
+curl http://container ip#docker inspect containerid or name|grep -i ipaddress
+copy vm ip to web browser
 ``` 
 
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
