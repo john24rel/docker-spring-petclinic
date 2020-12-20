@@ -1,8 +1,8 @@
-## To Create Doker Image From Dockerfile
+## To Create Docker Image From Dockerfile
 ``` 
 docker build -t (tagname) .
 ```
-## To Run Doker Image
+## To Run Docker Image
 ```
 docker run -d -p 80:8080 image name or image id
 ```
